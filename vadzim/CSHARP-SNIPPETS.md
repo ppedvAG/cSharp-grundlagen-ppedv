@@ -2,7 +2,7 @@
 
 | snippet | effect |
 | --- | --- |
-| `cw` | `Console.WriteLine()` |
+| `cw` | `Console.WriteLine();` |
 | `for` | for loop |
 | `while` | while loop |
 | `do` | do while loop |

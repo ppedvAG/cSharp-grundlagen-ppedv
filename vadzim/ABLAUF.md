@@ -1,5 +1,7 @@
 # ABLAUF VOM KURS, VADZIM
 
+[csharp-spickzettel](CSHARP-CHEATSHEET.md)
+
 [git-commands](GIT-COMMANDS.md)
 
 [vs-shortcuts](VS-SHORTCUTS.md)
@@ -8,9 +10,9 @@
 
 ## M00 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
-- [ ] Git
+- [x] Greeter
+- [x] VS
+- [x] Git
 
 VS Installer > installierte Version ändern > sprachpakete
 
@@ -18,7 +20,7 @@ sln props > startup projects > current
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro
+- [ ] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [ ] .NET [Dokumentation](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [ ] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
 - [ ] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
