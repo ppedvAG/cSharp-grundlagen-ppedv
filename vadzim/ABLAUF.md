@@ -20,22 +20,22 @@ sln props > startup projects > current
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] .NET [Dokumentation](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
-- [ ] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+- [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET [Dokumentation](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
+- [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
+- [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
 
 Übersicht von Klassen und Interfaces, die man im Kurs vor allem braucht
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
+- [x] Datentypen
+- [x] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
 - [ ] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
-- [ ] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
-- [ ] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
-- [ ] Operatoren
-- [ ] Casting
+- [x] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
+- [x] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
+- [x] Operatoren
+- [x] Casting
 - [ ] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
 - [ ] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 - [ ] [bits](../vadzim/CS-GK-VC-V/Demo-bits/Dbits.cs)

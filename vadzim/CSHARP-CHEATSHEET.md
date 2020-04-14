@@ -1,4 +1,4 @@
-# CHEATSHEET CSHARP
+# CHEATSHEET CSHARP, Vadzim
 
 [classes](#classes)
 
@@ -41,6 +41,8 @@
 ### SEMANTIC SYNTAX
 
 Konvention bei Klassennamen - PascalCase
+
+Wenn kein Modifizierer, dann ist es private
 
 ```csharp
 _modifier_ class _Identifier_
@@ -164,11 +166,21 @@ Konventionen bei den Bezeichnern:
 ### SEMANTIC SYNTAX
 
 ```csharp
+_modifier_ _returntype_ _Identifier_(_parameters_)
+{
+    // Ausdrücke | Expressions
+    // Anweisungen | Statements 
+}
 ```
 
 ### EXAMPLE
 
 ```csharp
+static void Main(string text)
+{
+    // Ausdrücke | Expressions
+    // Anweisungen | Statements 
+}
 ```
 
 ## DESTRUCTORS

@@ -7,6 +7,7 @@
 | `tab` | autocomplete |
 | `ctrl j` | autocomplete |
 | `ctrl d` | copy line or selected code |
+| `ctrl f` | search function |
 | `alt up/down` | move line |
 | `shift alt up/down` | edit many lines |
 | `ctrl s` | save file |
