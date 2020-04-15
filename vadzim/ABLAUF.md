@@ -16,7 +16,6 @@
 
 VS Installer > installierte Version ändern > sprachpakete
 
-sln props > startup projects > current
 
 ## M10 | GETTING STARTED
 
@@ -24,6 +23,8 @@ sln props > startup projects > current
 - [x] .NET [Dokumentation](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
 - [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+
+sln props > startup projects > current
 
 Übersicht von Klassen und Interfaces, die man im Kurs vor allem braucht
 

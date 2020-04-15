@@ -42,6 +42,12 @@ namespace Demo_bool
             Console.WriteLine(myB1 == myB2 ^ myB1 == myB3); //False ^ True : True
             Console.WriteLine(true ^ true); //True ^ True : False
 
+            Console.WriteLine("### true vs True ###");
+            bool myBool = true;
+            Console.WriteLine(myBool);
+            Console.WriteLine(myBool.ToString());
+            // Klicke auch auf F12 bei ToString(), um die Beschreibung/Erklärung zu sehen
+
             Console.ReadKey();
         }
     }

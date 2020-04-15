@@ -27,7 +27,12 @@ namespace Demo_Console
             //Console.OutputEncoding = UTF8Encoding;
 
             Console.WriteLine("Eurozeichen mit UTF8: €");
-           
+
+            // *todo
+            // https://docs.microsoft.com/de-de/dotnet/csharp/programming-guide/main-and-command-args/
+            // Mehr auf die Main-Methode eingehen.
+            // Ausführen einer Konsolen-App mit Argumenten demonstrieren
+
             Console.ReadKey();
         }
     }
