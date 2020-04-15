@@ -32,33 +32,33 @@ sln props > startup projects > current
 
 - [x] Datentypen
 - [x] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
-- [ ] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
 - [x] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
 - [x] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [ ] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
-- [ ] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
+- [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
+- [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 - [ ] [bits](../vadzim/CS-GK-VC-V/Demo-bits/Dbits.cs)
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-- [ ] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
+- [x] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
+- [x] if else
+- [x] for
+- [x] while & do while
+- [x] switch
+- [x] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
+- [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M40 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] return
+- [x] overloads
+- [x] out & ref args
+- [x] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
 
 ## M50 | CLASSES & OOP
 

@@ -16,7 +16,7 @@ namespace Demo_string
             string myString = Console.ReadLine();
             // Literale sind Zeichenkombinationen, die vom Compiler als String-Wert interpretiert werden.
             // Literale sind Möglichkeiten, string anzulegen, ohne auf etwaige Methoden oder Konstruktoren zuzugreifen.
-            
+
             Console.WriteLine("# string anlegen : \"text\" #");
             myString = "text";
             Console.WriteLine($"myString: {myString}");
@@ -34,6 +34,14 @@ namespace Demo_string
             // aus einem normalen Zeichen ein besonderes Zeichen machen:
             Console.WriteLine("neue Zeile: \n");
             Console.WriteLine("\t tabulator");
+
+
+            Console.WriteLine("# string anlegen : @\"text\" #");
+            string verbatimString = @"text              text
+
+text";
+            Console.WriteLine($"verbatimString: {verbatimString}");
+
 
 
             Console.ReadKey();
