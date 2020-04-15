@@ -62,18 +62,18 @@ sln props > startup projects > current
 
 ## M50 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
+- [x] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
+- [x] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
+- [x] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
+- [x] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
 
 ## M60 | INHERITENCE / VERERBUNG
 
