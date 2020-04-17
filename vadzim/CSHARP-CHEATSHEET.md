@@ -1,47 +1,35 @@
-# CHEATSHEET CSHARP, Vadzim
+# CHEATSHEET CSHARP (Vadzim)
 
-[classes](#classes)
-
-[variable declaration](#variable-declaration)
-
-[variable initialisation](#variable-initialisation)
-
-[class fields](#class-fields)
-
-[class props](#class-props)
-
-[constructors](#constructors)
-
+[classes](#classes) |
+[class props](#class-props) |
+[constructors](#constructors) |
 [class methods](#class-methods)
 
-[destructors](#destructors)
+[variable declaration](#variable-declaration) |
+[variable initialisation](#variable-initialisation)
 
-[conditions](#conditions)
-
+[conditions](#conditions) | 
 [conditionals](#conditionals)
 
-[loops](#loops)
-
+[loops](#loops) | 
 [iterators](#iterators)
 
-[instantiation](#instantiation)
-
-[inheritance](#inheritance)
-
+[instantiation](#instantiation) |
+[inheritance](#inheritance) |
 [interfaces](#interfaces)
 
 [generic structures](#generic-structures)
 
-[delegates](#delegates)
-
+[delegates](#delegates) |
 [arrow functions](#arrow-functions)
+
+<br><br>
 
 ## CLASSES
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
-Konvention bei Klassennamen - PascalCase
-
+Konvention bei Klassennamen - PascalCase<br>
 Wenn kein Modifizierer, dann ist es private
 
 ```csharp
@@ -51,7 +39,7 @@ _modifier_ class _Identifier_
 }
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 public class Person
@@ -60,11 +48,11 @@ public class Person
 }
 ```
 
-### SNIPPET
+**SNIPPET**
 
 `class` `tab` `tab`
 
-### MEMBERS
+**MEMBERS**
 
 ```csharp
 public class Person
@@ -83,87 +71,93 @@ public class Person
 }
 ```
 
+<br><br>
+
 ## VARIABLE DECLARATION
 
 Konvention - camelCase
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 _type_ _identifier_;
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 int allowedAmount;
 ```
 
+<br><br>
+
 ## VARIABLE INITIALISATION
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 _type_ _identifier_ = _value_;
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 int allowedAmount = 5;
 ```
 
-## CLASS FIELDS
-
-Konvention - camelCase
-
-### SEMANTIC SYNTAX
-
-```csharp
-_modifier_ _identifier_;
-```
-
-### EXAMPLE
-
-```csharp
-```
+<br><br>
 
 ## CLASS PROPS
 
 Konvention - PascalCase
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
+public _type_ _Identifier_ { get; set; }
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
+public string FirstName { get; set; }
 ```
+
+<br><br>
 
 ## CONSTRUCTORS
 
-Konstruktoren heißen genauso wie die Klasse selbst!
-
+Konstruktoren heißen genauso wie die Klasse selbst! <br>
+Konstruktoren haben keinen Rückgabetyp. <br>
 Konventionen wie bei anderen Methoden.
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
+public _ClassName_(_type_ _param1_, _type_ _param2_)
+{
+    this._PropName1_ = _param1_;
+    this._PropName2_ = _param2_;
+}
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
+public Person(string fn, string ln) 
+{
+    this.FirstName = fn;
+    this.LastName = ln;
+}
 ```
+
+<br><br>
 
 ## CLASS METHODS
 
-Konventionen bei den Bezeichnern:
-- Methoden - PascalCase 
+Konventionen - PascalCase 
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 _modifier_ _returntype_ _Identifier_(_parameters_)
@@ -173,7 +167,7 @@ _modifier_ _returntype_ _Identifier_(_parameters_)
 }
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 static void Main(string text)
@@ -183,136 +177,164 @@ static void Main(string text)
 }
 ```
 
-## DESTRUCTORS
-
-### SEMANTIC SYNTAX
-
-```csharp
-```
-
-### EXAMPLE
-
-```csharp
-```
+<br><br>
 
 ## CONDITIONS
 
-### SEMANTIC SYNTAX
+#### SINGLE CONDITION
+
+**SEMANTIC SYNTAX**
 
 ```csharp
+_value1_ == / != / > / >= / < / <= _value2_
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
+Person.Firstname == "Max"
 ```
+
+<br>
+
+#### MANY CONDITIONS
+
+**SEMANTIC SYNTAX**
+
+```csharp
+_condition1_ && / || / ^ _condition2_
+```
+
+**EXAMPLE**
+
+```csharp
+myPerson.Firstname == "Max" && myPerson.Age < 30
+```
+
+<br><br>
 
 ## CONDITIONALS
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## LOOPS
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## ITERATORS
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## INSTANTIATION
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## INHERITANCE
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## INTERFACES
 
 Konvention bei Schnittstellen - IPascalCase
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## GENERIC STRUCTURES
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## DELEGATES
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```
+
+<br><br>
 
 ## ARROW FUNCTIONS
 
-### SEMANTIC SYNTAX
+**SEMANTIC SYNTAX**
 
 ```csharp
 ```
 
-### EXAMPLE
+**EXAMPLE**
 
 ```csharp
 ```

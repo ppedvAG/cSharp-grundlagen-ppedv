@@ -10,24 +10,24 @@ namespace M5Fahrzeug
     {
         public enum Zustand { Fahrend, Stehend }
         public string Name { get; set; }
-        public int MaxGeschwindigkeit { get; set; }
+        public int MaximalGeschwindigkeit { get; set; }
         public double Preis { get; set; }
-        public int AktGeschwindigkeit { get; set; }
-        public Zustand zustand { get; set; }
+        public int AktuelleGeschwindigkeit { get; set; }
+        public Zustand FZustand { get; set; }
 
         public Fahrzeug(string name, int preis, int maximalGeschwindigkeit)
         {
             Name = name;
             Preis = preis;
             this.MaximalGeschwindigkeit = maximalGeschwindigkeit;
-            this.Zustand = TransportZustand.Stehend;
+            this.FZustand = Zustand.Stehend;
             this.AktuelleGeschwindigkeit = 0;
         }
 
         //Methoden
         public int Beschleunigen(int km)
         {
-            if (AktuelleGeschwindigkeit < MaximalGeschwindigkeit && Zustand == TransportZustand.Fahrend)
+            if (AktuelleGeschwindigkeit < MaximalGeschwindigkeit && FZustand == Zustand.Fahrend)
             {
                 AktuelleGeschwindigkeit += km;
             }
@@ -39,7 +39,7 @@ namespace M5Fahrzeug
         }
         public void StarteMotor()
         {
-            if (Zustand == TransportZustand.Fahrend)
+            if (FZustand == Zustand.Fahrend)
             {
                 this.AktuelleGeschwindigkeit += 5;
             }
@@ -47,18 +47,18 @@ namespace M5Fahrzeug
 
         public void StoppeMotor()
         {
-            this.Zustand = TransportZustand.Fahrend;
+            this.FZustand = Zustand.Fahrend;
         }
 
         public void Parke()
         {
-            this.Zustand = TransportZustand.Stehend;
+            this.FZustand = Zustand.Stehend;
             this.AktuelleGeschwindigkeit = 0;
         }
 
         public string BeschreibeMich()
         {
-            return $"{Name} ({Preis} Euro): Maximale Geschwindigkeit: {MaximalGeschwindigkeit} km/h | Zustand: {Zustand}| Mom. Geschwindigkeit: {AktuelleGeschwindigkeit}";
+            return $"{Name} ({Preis} Euro): Maximale Geschwindigkeit: {MaximalGeschwindigkeit} km/h | Zustand: {FZustand}| Mom. Geschwindigkeit: {AktuelleGeschwindigkeit}";
         }
 
     }
