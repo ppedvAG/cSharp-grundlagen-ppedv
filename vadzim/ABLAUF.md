@@ -16,7 +16,6 @@
 
 VS Installer > installierte Version ändern > sprachpakete
 
-sln props > startup projects > current
 
 ## M10 | GETTING STARTED
 
@@ -25,54 +24,56 @@ sln props > startup projects > current
 - [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
 - [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
 
+sln props > startup projects > current
+
 Übersicht von Klassen und Interfaces, die man im Kurs vor allem braucht
 
 ## M20 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
 - [x] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
-- [ ] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
 - [x] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
 - [x] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [ ] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
-- [ ] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
+- [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
+- [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 - [ ] [bits](../vadzim/CS-GK-VC-V/Demo-bits/Dbits.cs)
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-- [ ] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
+- [x] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
+- [x] if else
+- [x] for
+- [x] while & do while
+- [x] switch
+- [x] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
+- [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M40 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] return
+- [x] overloads
+- [x] out & ref args
+- [x] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
 
 ## M50 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
+- [x] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
+- [x] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
+- [x] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
+- [x] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
 
 ## M60 | INHERITENCE / VERERBUNG
 
