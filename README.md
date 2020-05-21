@@ -11,3 +11,6 @@ Ein Kurs von PPEDV
 [Arbeitsbereich von Vadzim](vadzim/ABLAUF.md)
 
 C# Csharp PPEDV AG Kurs Schulung Development
+https://ppedv.de/schulung/kurse/CSharpEinstiegVisualStudioProgrammierungSchulungKursSeminarTraining.aspx
+
+
